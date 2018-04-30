@@ -1,0 +1,28 @@
+body {
+    background-color: white ;
+}
+.container{
+    overflow: hidden;
+}
+
+.tab{
+    float:left;
+}
+.DinamicTable{
+    margin-left: 3%;
+}
+
+.DinamicTable input{
+    display: block;
+    margin-top: 1%;
+}
+.DinamicTable button{
+    margin-top: 1%;
+}
+
+tr:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trabalho MyProject</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="tab TableFirstLine">
+                    <table id="table" border="1">
+                        <tr> 
+                            <th>Nome</th>
+                            <th>Descrição</th>
+                            <th>Tempo para Finalização</th>
+                            <th>Condição</th>
+                        </tr>
+                        
+                    </table>
+                </div>
+                <div class="tab DinamicTable">
+                    Nome: <input type="text" name="nome" id="nome">
+                    Descrição: <input type="text" name="descricao" id="descricao">
+                    Tempo para Finalização: <input type="text" name="temp_Fin" id="temp_Fin">
+                    
+                    <button onclick="addRow();">Nova Tarefa</button> 
+                    <button onclick="changeRow();">Alterar Tarefa</button> 
+                    <button onclick="removeRow();">Remover Tarefa</button> 
+                    <button onclick="changeStatus();" >Tarefa Completa</button>  
+                </div>
+            </div>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
